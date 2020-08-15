@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
+baseURL = "https://jtb.netlify.app"
 title = "Airspace | Creative Agency Hugo Template"
 theme = "jtb"
 # post pagination
