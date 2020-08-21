@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://jtb.netlify.app"
-title = "Airspace | Creative Agency Hugo Template"
+title = "Just Thai Boston"
 theme = "jtb"
 # post pagination
 paginate = "4"
@@ -58,17 +58,20 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 [params]
 logo = "images/JustThai2.svg"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "This is Just Thai Boston"
+author = "JustThai"
 # Contact Information
 phone = "617.288.6388"
 mobile = "617.288.6225"
-email = "demo@email.com"
+#email = "demo@email.com"
 location = "1512A Dorchester Ave Dorchester, MA 02122"
+hour = "Sun 12:00pm - 9:30pm"
+monthur = "Mon - Thur 11:00am - 9:30pm"
+frisat = "Fri - Sat 11:00am - 10:00pm"
 # contact form action
 contact_form_action = "https://formspree.io/xgenqokj" # contact form works with : https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # Your ID# search
+google_analitycs_id = "UA-149514152-1" # Your ID# search
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = false
 
@@ -86,36 +89,24 @@ link = "contact"
 # google map
 [params.gmap]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB-uhaTM5VEw70kHEII0zeB9sTsNf1VlLo"
+map_latitude = "42.299065"
+map_longitude = "-71.060395"
 map_marker = "images/marker.png"
 
   
 ############################# social site ########################
 [[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://twitter.com/justthaiboston"
 
 [[params.social]]
 icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://www.facebook.com/Just-Thai-Boston-100503341771699"
+
+[[params.social]]
+icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.instagram.com/justthaiboston"
 
 
 ################################ English Language ########################
@@ -125,7 +116,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2020 [Just Thai](https://justthaiboston.com) All Rights Reserved"
 
 
 ######################### english navigation #############################

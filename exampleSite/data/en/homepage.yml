@@ -1,32 +1,28 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
+  bg_image : "images/author.jpg"
   bg_overlay : true
   title : "Just Thai Kitchen <br/> Boston"
   content : "The last Thai restaurant you'll ever need. Maybe."
   button:
     enable : true
-    label : "Discover Our Project"
-    link : "project"
+    label : "Discover Our Menu"
+    link : "menu"
 
 ############################# About #################################
 about:
   enable : true
   title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
-  image : "images/wrapper-img.png"
+  description : "Just Thai is the Boston, MA area’s best restaurant for take-out and delivery of authentic Thai food."
+  content : "Since 2020, our family-owned and operated restaurant serves a delectable menu that boasts over many dishes that includes the most authentic and traditional Thai dishes in the area. We offer fast and friendly service whether you decide to have your meal delivered or choose to pick it up at our convenient location.
+</br></br>Addtionally, Just Thai has been offering complete catering services. Contact us to help plan your next party or event. Our catering menu offers a variety of traditional, authentic Thai dishes, and we will deliver to your home, office, school or banquet hall.."
+  image : "images/padthai.png"
 
 
 ######################### Portfolio ###############################
 portfolio:
-  enable : true
+  enable : false
   bg_image : "images/featue-bg.jpg"
   title : "WE BELIEVE IN GREAT IDEAS"
   content : "
@@ -40,13 +36,52 @@ portfolio:
   "
   button:
     enable : true
-    label : "View Works"
-    link : "project"
+    label : "Online Order"
+    link : "https://www.toasttab.com/justthai/v3"
+  
+  button2:
+    enable : true
+    label : "Uber Eats"
+    link : "https://www.ubereats.com/boston/food-delivery/fuji-at-woc/sGcYqXJ7RYquhI_CfQGj2w?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk1vbnRpZW4lMjBCb3N0b24lMjAtJTIwVGhhaSUyMFJlc3RhdXJhbnQlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjIxYmRlMGU2Ni00ZDFlLTEwNmMtMmZhMC0zMTBhY2YwN2YwOTIlMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIydWJlcl9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTQyLjM1MTA5NjIlMkMlMjJsb25naXR1ZGUlMjIlM0EtNzEuMDY0NDEwMyU3RA%3D%3D"
+
+
+######################### Online ###############################
+online:
+  enable : true
+  bg_image : "images/author.jpg"
+  title : "ONLINE ORDER"
+  content : ""
+  button:
+    enable : true
+    label : "Online Order"
+    link : "https://www.toasttab.com/justthai/v3"
+  
+  button2:
+    enable : true
+    label : "Uber Eats"
+    link : "https://www.ubereats.com/boston/food-delivery/fuji-at-woc/sGcYqXJ7RYquhI_CfQGj2w?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk1vbnRpZW4lMjBCb3N0b24lMjAtJTIwVGhhaSUyMFJlc3RhdXJhbnQlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjIxYmRlMGU2Ni00ZDFlLTEwNmMtMmZhMC0zMTBhY2YwN2YwOTIlMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIydWJlcl9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTQyLjM1MTA5NjIlMkMlMjJsb25naXR1ZGUlMjIlM0EtNzEuMDY0NDEwMyU3RA%3D%3D"
+
+
+######################### Giftcard ###############################
+giftcard:
+  enable : true
+  bg_image : "images/author.jpg"
+  title : "GIFTCARD"
+  content : ""
+  button:
+    enable : true
+    label : "Buy Here"
+    link : "https://www.toasttab.com/justthai/giftcards"
+  
+  button2:
+    enable : true
+    label : "Check Balance"
+    link : "https://www.toasttab.com/justthai/findcard"
 
 
 ############################# Service ############################
 service:
-  enable : true
+  enable : false
   # service content comes from "data/*/service.yml" file
 
 
@@ -63,7 +98,7 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
-  enable : true
+  enable : false
   title : "Fun Facts About Us"
   description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"

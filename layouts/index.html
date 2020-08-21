@@ -14,7 +14,7 @@
           <p>{{ .content | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | relLangURL }}" target="_blank" class="btn btn-main animated fadeInUp">{{ .label }}</a>
+          <a href="{{ .link | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>
@@ -67,11 +67,70 @@
         <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
         {{ end }}
         {{ end }}
+        {{ if .button2.enable }}
+        {{ with .button2 }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
 </section>
 <!-- /portfolio -->
+{{ end }}
+{{ end }}
+
+{{ if $data.homepage.online.enable }}
+{{ with $data.homepage.online }}
+<!-- online -->
+<section class="feature bg-2" style="background-image: url('{{ .bg_image | absURL}}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
+        {{ .content | markdownify }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+        {{ if .button2.enable }}
+        {{ with .button2 }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /online -->
+{{ end }}
+{{ end }}
+
+{{ if $data.homepage.giftcard.enable }}
+{{ with $data.homepage.giftcard }}
+<!-- online -->
+<section class="feature bg-2" style="background-image: url('{{ .bg_image | absURL}}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h2 class="section-subtitle">{{ .title | markdownify }}</h2>
+        {{ .content | markdownify }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+        {{ if .button2.enable }}
+        {{ with .button2 }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /online -->
 {{ end }}
 {{ end }}
 
