@@ -71,7 +71,7 @@ frisat = "Fri - Sat 11:00am - 10:00pm"
 # contact form action
 contact_form_action = "https://formspree.io/xgenqokj" # contact form works with : https://formspree.io
 # Google Analitycs
-google_analitycs_id = "UA-149514152-1" # Your ID# search
+google_analitycs_id = "" # Your ID# search
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = false
 
